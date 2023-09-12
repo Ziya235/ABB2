@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sag {
+    width: 870px;
+    height: 715px;
+}
+
+header {
+    display: flex;
+    width: 640px;
+    height: 112px;
+    position: relative;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 28px 0 0 32px;
+}
+
+header .abb {
+    float: left;
+    margin: 28px 0 0 10px ;
+    font-size: 20px;
+}
+
+header .lang   {
+    display: flex;
+    float: right;
+    word-spacing: 10px;
+    margin: 0 0 0 220px ;
+    font-size: 20px;
+
+}
+
+header .lang .az {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+
+
+
+}
+header .lang .en {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(123, 109, 109);
+}
+header .lang .ru {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(123, 109, 109);
+
+}
+
+main .form {
+    margin: 60px 0 0 100px;
+}
+
+main p{
+    color: gray;
+    word-spacing: 3px;
+}
+
+main p strong {
+    color: black;
+}
+
+#fname {
+    
+    padding: 10px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 380px;
+    font-size: 18px;
+}
+#lname {
+    padding: 10px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 380px;
+    font-size: 18px;
+}
+#davam {
+    padding: 10px 164px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(163, 163, 211);
+
+}
+
+#qeydiyat {
+    padding: 10px 160px;
+    margin: 8px 0 ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    
+}
+#ve {
+    
+    margin: 0 0 0 170px ;
+}
+
+.imza {
+    padding: 20px;
+    margin: 50px 0 0 80px;
+}
+
+
+@media screen and (max-width: 520px) {
+    .sag {
+        display: none;
+    }
+}
